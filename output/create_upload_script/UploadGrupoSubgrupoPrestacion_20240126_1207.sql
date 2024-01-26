@@ -1,0 +1,23 @@
+INSERT INTO [Datalake].[Lake].[GrupoSubgrupoPrestacion] (IdGrupoSubgrupo, IdGrupoPrestacion, IdSubgrupoPrestacion, UsuarioModificacion, FechaCreacion, FechaModificacion, Vigencia)
+VALUES
+    (-1, -1, -1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (1, 1, 1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (2, 3, 2, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (3, 2, 3, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (4, 1, 4, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (5, 1, 5, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (6, 2, 6, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (7, 2, 7, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (8, 2, 8, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (9, 2, 9, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (10, 1, 10, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (11, 2, 11, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (12, 3, 12, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (13, 3, 1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (14, 4, 13, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (15, 4, 14, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (16, 4, 15, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (17, 4, 16, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (18, 4, -1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (19, 4, 17, @usuariomodificacion, @fechahoy, @fechahoy, 1),
+    (20, 4, 18, @usuariomodificacion, @fechahoy, @fechahoy, 1);

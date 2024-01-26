@@ -1,0 +1,11 @@
+numpy
+pandas
+openpyxl
+nbformat
+sqlalchemy
+pyodbc
+tqdm
+compress_pickle
+chardet
+
+

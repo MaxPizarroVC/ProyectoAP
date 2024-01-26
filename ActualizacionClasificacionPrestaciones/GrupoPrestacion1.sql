@@ -1,0 +1,1 @@
+select * from Datalake.Lake.GrupoPrestacion
