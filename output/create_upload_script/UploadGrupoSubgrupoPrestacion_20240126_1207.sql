@@ -1,4 +1,4 @@
-INSERT INTO [Datalake].[Lake].[GrupoSubgrupoPrestacion] (IdGrupoSubgrupo, IdGrupoPrestacion, IdSubgrupoPrestacion, UsuarioModificacion, FechaCreacion, FechaModificacion, Vigencia)
+INSERT INTO [Datalake].[Prestacion].[GrupoSubgrupoPrestacion] (IdGrupoSubgrupo, IdGrupoPrestacion, IdSubgrupoPrestacion, UsuarioModificacion, FechaCreacion, FechaModificacion, Vigencia)
 VALUES
     (-1, -1, -1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
     (1, 1, 1, @usuariomodificacion, @fechahoy, @fechahoy, 1),
