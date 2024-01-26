@@ -1,4 +1,4 @@
-INSERT INTO [Datalake].[Lake].[AperturaPrestacion] (IdAperturaPrestacion, ClasificacionApertura, UsuarioModificacion, FechaCreacion, FechaModificacion, Vigencia)
+INSERT INTO [Datalake].[Prestacion].[AperturaPrestacion] (IdAperturaPrestacion, ClasificacionApertura, UsuarioModificacion, FechaCreacion, FechaModificacion, Vigencia)
 VALUES
     (-1, 'SIN REGISTRO', @usuariomodificacion, @fechahoy, @fechahoy, 1),
     (1, 'ACUPUNTURA', @usuariomodificacion, @fechahoy, @fechahoy, 1),
